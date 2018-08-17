@@ -1,0 +1,33 @@
+<h2>Detail view</h2>
+
+<div style="display: flex">
+
+<div style="padding: 20px">
+    <img [animateRef]="'img' + currentId" src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar"
+         style="flex: 0 0 auto;">
+</div>
+  <div style="flex: 1 1 auto">
+    <h1>
+      <span [animateRef]="'title'+ currentId">Jane Doe</span>
+      <small [animateRef]="'subTitle'+ currentId" style="white-space: nowrap; color: gray">
+        Interior Designer
+      </small>
+    </h1>
+
+<blockquote>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet commodi distinctio dolore, earum et ex fugit illum
+        libero nesciunt officia optio, provident quibusdam ratione sunt suscipit tempora ullam, voluptatum. Rerum.</p>
+
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque eligendi fugit inventore ipsa pariatur quae quam
+        quos
+        vel voluptates. Aperiam debitis iusto neque numquam odit placeat quaerat vero voluptatem. Quibusdam?</p>
+
+    <button routerLink="/master">
+        Go back
+    </button>
+</blockquote>
+
+  </div>
+
+</div>
+

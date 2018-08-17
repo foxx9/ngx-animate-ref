@@ -1,0 +1,10 @@
+<h2>Master view</h2>
+
+
+<div routerLink="/detail/{{card}}" class="card" *ngFor="let card of [1,2,3]">
+  <img [animateRef]="'img' + card" src="https://www.w3schools.com/howto/img_avatar2.png" alt="Avatar" style="width:100%">
+  <div class="container">
+    <h4 class="card-title" [animateRef]="'title'+ card"><b>Jane Doe</b></h4>
+    <p  [animateRef]="'subTitle'+ card" style="white-space: nowrap">Interior Designer</p>
+  </div>
+</div>
