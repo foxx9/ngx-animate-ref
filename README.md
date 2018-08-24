@@ -41,13 +41,13 @@ Give them a unique identifier shared across pages as the value, the library will
 Element in page A :
 
 ````html
-<div [animateRef]="'myImage1'" style="background: blue">Hello there</div>
+<div [animateRef]="'myText'" style="background: blue">Hello there</div>
 ````
 
 Element in page B :
 
 ````html
-<div [animateRef]="'myImage1'" style="background: red"> Hello there</div>
+<div [animateRef]="'myText'" style="background: red"> Hello there</div>
 ````
 
 ### Demo project:
