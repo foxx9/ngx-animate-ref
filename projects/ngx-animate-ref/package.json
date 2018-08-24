@@ -2,6 +2,10 @@
   "name": "ngx-animate-ref",
   "version": "0.0.1",
   "author" : "Maxime Layat",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/foxx9/ngx-animate-ref"
+  },
   "peerDependencies": {
     "@angular/common": "^6.0.0-rc.0 || ^6.0.0",
     "@angular/core": "^6.0.0-rc.0 || ^6.0.0"
