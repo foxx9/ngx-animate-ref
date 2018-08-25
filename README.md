@@ -5,7 +5,9 @@ https://docs.angularjs.org/api/ngAnimate#animation-anchoring-via-ng-animate-ref-
 
 The effect is as an element is animating to its new position when navigating to an other page
 
-[Demo](https://rlmirjjy.github.stackblitz.io/master)
+### Demo project:
+
+https://stackblitz.com/github/foxx9/ngx-animate-ref
 
 
 ## How to use
@@ -50,9 +52,7 @@ Element in page B :
 <div [animateRef]="'myText'" style="background: red"> Hello there</div>
 ````
 
-### Demo project:
 
-https://stackblitz.com/github/foxx9/ngx-animate-ref
 
 ## Tips for better results
 
