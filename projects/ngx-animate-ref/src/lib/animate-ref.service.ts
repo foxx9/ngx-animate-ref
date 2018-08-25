@@ -41,6 +41,10 @@ export class AnimateRefService {
     this.refs = this.refs
       .map(r => {
         r.lifetime--;
+        if (r.lifetime === 0) {
+          r.clone = null;
+          r.el.nativeElement = null;
+        }
         return r;
       })
       .filter(r => r.lifetime > 0);

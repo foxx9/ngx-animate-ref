@@ -21,7 +21,7 @@ export class AnimateRefDirective implements AfterViewInit {
   public metaData: AnimateMetaData = null;
   public clone: HTMLElement = null;
 
-  constructor(private service: AnimateRefService, private el: ElementRef) {
+  constructor(private service: AnimateRefService, public el: ElementRef) {
   }
 
   ngAfterViewInit(): void {
