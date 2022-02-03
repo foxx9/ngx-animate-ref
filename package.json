@@ -6,6 +6,7 @@
     "start": "ng serve",
     "start:prod": "ng serve --configuration production",
     "build": "ng build  --configuration production",
+    "build:lib": "ng build --project ngx-animate-ref  --configuration production",
     "lint": "ng lint",
     "e2e": "ng e2e"
   },
