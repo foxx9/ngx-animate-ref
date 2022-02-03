@@ -18,7 +18,7 @@ import {ANIMATE_REF_CONFIG, AnimateRefConfig} from './animate-ref.config';
 })
 export class AnimateRefModule {
 
-  static forRoot(config: AnimateRefConfig): ModuleWithProviders {
+  static forRoot(config: AnimateRefConfig): ModuleWithProviders<AnimateRefModule> {
     return {
       ngModule: AnimateRefModule,
       providers: [AnimateRefService, {provide: ANIMATE_REF_CONFIG, useValue: config}]
